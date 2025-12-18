@@ -1,7 +1,7 @@
-# Redis_Cache_Delete_Operations
- 
-Redis Cache Delete Operations
-1- DEL ve  UNLINK
+#Redis Cache Delete Operations
+
+
+## 1- DEL ve  UNLINK
 Redis'te veri silmek için temelde DEL komutunu kullanırız ve bu işlem atomic çalışır.
 Eğer büyük key'ler varsa ve main thread'i bloklamak istemiyorsak DEL yerine UNLINK kullanırız, unlink silme işlemini background thread'e atar
 2 - Expire Silme Mekanizması (Passive – Active)
